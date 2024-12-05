@@ -1,0 +1,62 @@
+@font-face {
+    font-family: font1;
+    src: url(./Fonts/6479b994523a6279a03d4da7_Siaga-Bold.woff2);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(./Fonts/64eda5e581cb8e58ed55dea5_apercu-medium.woff2);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(./Fonts/64eda5e5fdd71ddd3dbbf609_apercu-regular.woff2);
+}
+
+@font-face {
+    font-family: font4;
+    src: url(./Fonts/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    padding: 20px 50px ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.logo{
+    width: 10%;
+}
+
+.rotate{
+    width: 3%;
+}
+
+.links{
+    display: flex;
+    gap: 5%;
+}
+
+.links button{
+    padding: 10px 8px ;
+    border-radius: 10px;
+    font-size: 15p;
+}
+
+
+
+
