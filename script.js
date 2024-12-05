@@ -30,14 +30,39 @@ gsap.from(".page6 p",{
     }
 })
 
-gsap.from(".page7 h1",{
+
+gsap.from(".page3 h1",{
     opacity: 0,
     duration:2,
     stagger:0.5,
     scrollTrigger: {
-        trigger: ".page7",
+        trigger: ".page3",
         start: "top 50%",
         end: "top -10%",
         scrub: 1,
     }
 })
+
+gsap.from(".page7 h1",{
+    opacity: 0,
+    duration:1,
+    stagger:0.5,
+    scrollTrigger: {
+        trigger: ".page7",
+        start: "top 50%",
+        end: "top -20%",
+        scrub: 1,
+    }
+})
+
+gsap.from(".link-container div",{
+    opacity: 0,
+    duration:2,
+    stagger:0.5,
+    scrollTrigger: {
+        trigger: ".link-container",
+        start: "top 80%",
+        end: "top 15%",
+        scrub: 1,
+    }
+    })
