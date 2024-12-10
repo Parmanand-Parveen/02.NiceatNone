@@ -1,5 +1,5 @@
 gsap.to(".image-container img",{
-    transform: "translatex(-50%)",
+    transform: "translatex(-150%)",
     duration:1,
     scrollTrigger: {
         trigger: ".image-container",
@@ -66,3 +66,21 @@ gsap.from(".link-container div",{
         scrub: 1,
     }
     })
+ 
+const body = document.querySelector(".body")
+
+body.addEventListener("wheel",(dets)=>{
+
+    if(dets.deltaY>=0){
+        gsap.to("nav", {
+            y:-100,
+            duration:.75
+        })
+    }else{
+        gsap.from("nav", {
+            y:0 ,
+            duration:.75
+        })
+    }
+})  
+    

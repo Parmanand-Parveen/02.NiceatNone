@@ -31,7 +31,10 @@ body {
 }
 
 .nav {
+  position: fixed ;
   display: flex;
+  width: 100%;
+  z-index: 111;
   padding: 20px 50px;
   justify-content: space-between;
   align-items: center;
@@ -87,7 +90,8 @@ body {
 
 .hero-section {
   display: flex;
-  padding: 5px 50px;
+ 
+  padding: 100px 50px 5px 50px;
   justify-content: space-between;
   align-items: flex-end;
   background-color: #e4e4e4;
